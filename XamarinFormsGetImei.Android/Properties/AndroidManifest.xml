@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.xamarinformsgetimei" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="30" android:targetSdkVersion="33" />
+	<uses-sdk android:minSdkVersion="29" android:targetSdkVersion="33" />
 	<application android:label="XamarinFormsGetImei.Android" android:theme="@style/MainTheme"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.BROADCAST_SMS" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-	<uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE" />
-	<uses-permission android:name="android.permission.READ_PROFILE" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />	
 </manifest>

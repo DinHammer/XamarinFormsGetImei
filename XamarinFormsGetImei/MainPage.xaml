@@ -19,6 +19,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <Button Text="Заслать СМС" Clicked="Send_Clicked"/>
     </StackLayout>
 
 </ContentPage>

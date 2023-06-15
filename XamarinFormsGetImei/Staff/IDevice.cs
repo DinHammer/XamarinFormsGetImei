@@ -7,8 +7,11 @@ namespace XamarinFormsGetImei.Staff
 {
     public interface IDevice
     {
-        RequestResult<string> GetImei();
+        //RequestResult<string> GetImei();
 
-        RequestResult<string> GetAndroidId();
+        //RequestResult<string> GetAndroidId();
+
+        RequestResult<MdlAndroidIdentificator> GetAndroidId();
+        
     }
 }
