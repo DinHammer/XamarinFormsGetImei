@@ -24,7 +24,7 @@ namespace XamarinFormsGetImei
 
         private async void Send_Clicked(object sender, EventArgs e)
         {            
-            string phone = "+79168226222";
+            string phone = "+7916xxx";
             
             var smsMessage = CrossMessaging.Current.SmsMessenger;
 
